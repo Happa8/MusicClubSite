@@ -4,11 +4,11 @@
 }
 
 html{
-    background-color: burlywood;
+    background-color: #fbd8b5;
 }
 
 header{
-    background-color: burlywood;
+    background-color: #fbd8b5;
     
     border: 0px solid;
     border-bottom: 3px solid;
@@ -64,7 +64,7 @@ img.topimg{
 
 .topbuttons i{
     font-size: 50px;
-    color: bisque;
+    color: white;
     margin: 3px;
 }
 
