@@ -1,0 +1,79 @@
+*{
+    margin: auto;
+    
+}
+
+header{
+    background-color: white;
+    
+    border: 0px solid;
+    border-bottom: 3px solid;
+    border-bottom-color: aqua;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0px;
+    
+    z-index: 30;
+    
+    
+}
+
+img.topimg{
+    width: 100%;
+    overflow: hidden;
+    
+    
+}
+
+.topbuttons {
+    margin: 10px;
+    height: 100px;
+    padding: inherit;
+    
+}
+
+.topbuttons .container{
+    position: relative;
+}
+
+.topbuttons .container:after{
+    padding-top: 75%;
+    display: block;
+    
+}
+
+.topbuttons .container .button-news{
+    width: 30%;
+    height: 100px;
+    background-color: #a4cabc;
+    float: left;
+    margin-left: 1.6665%;
+    margin-right: 1.6665%;
+    
+}
+
+.topbuttons .button-news h1{
+    height: 50%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 200%;
+}
+
+.topbuttons .container .button-forvisiters{
+    width: 30%;
+    height: 100px;
+    background-color: #eab364;
+    float: left;
+    margin-left: 1.6665%;
+    margin-right: 1.6665%;
+}
+
+.topbuttons .container .button-formembers{
+    width: 30%;
+    height: 100px;
+    background-color: #b2473e;
+    float: left;
+    margin-left: 1.6665%;
+    margin-right: 1.6665%;
+}
