@@ -3,8 +3,12 @@
     
 }
 
+html{
+    background-color: burlywood;
+}
+
 header{
-    background-color: white;
+    background-color: burlywood;
     
     border: 0px solid;
     border-bottom: 3px solid;
@@ -34,33 +38,37 @@ img.topimg{
     
 }
 
-.topbuttons .container{
-    position: relative;
-}
 
-.topbuttons .container:after{
-    padding-top: 75%;
-    display: block;
-    
-}
 
-.topbuttons .container .button-news{
+.topbuttons .button-news{
     width: 30%;
     height: 100px;
     background-color: #a4cabc;
     float: left;
     margin-left: 1.6665%;
     margin-right: 1.6665%;
+    text-align: center;
     
 }
 
-.topbuttons .button-news h1{
-    height: 50%;
+.topbuttons h1{
     font-family: 'Orbitron', sans-serif;
     font-size: 200%;
+    border-bottom: 1px solid;
 }
 
-.topbuttons .container .button-forvisiters{
+.topbuttons a {
+    text-decoration: none;
+    color: black;
+}
+
+.topbuttons i{
+    font-size: 50px;
+    color: bisque;
+    margin: 3px;
+}
+
+.topbuttons .button-forvisiters{
     width: 30%;
     height: 100px;
     background-color: #eab364;
@@ -69,7 +77,7 @@ img.topimg{
     margin-right: 1.6665%;
 }
 
-.topbuttons .container .button-formembers{
+.topbuttons .button-formembers{
     width: 30%;
     height: 100px;
     background-color: #b2473e;
