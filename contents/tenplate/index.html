@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>六甲学院音楽部サイト</title>
+    <link rel="stylesheet" href="sytle.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosansjapanese.css">
+    <link rel="apple-touch-icon" href="../../imgs/apple-touch-icon.png">
+    <link rel="shortcut icon" href="../../imgs/apple-touch-icon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="../../jquery.bxslider/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="../../jquery.bxslider/jquery.bxslider.css">
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.bxslider').bxSlider({
+                auto: true,
+                pause: 2000,
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>六甲音楽部</h1>
+        <a href="#" class="button_1" id="headerbuttons">
+            <p>button1</p>
+        </a>
+        <a href="#" class="button_2" id="headerbuttons">
+            <p>button2</p>
+        </a>
+        <a href="#" class="button_3" id="headerbuttons">
+            <p>button3</p>
+        </a>
+    </header>
+    
+    <div class="topimg">
+        <!--<img src="imgs/Dummy.png" class="topimg">-->
+        <ul class="bxslider">
+            <li><img title="Dummy" alt="" src="../../imgs/Dummy.png" /></li>
+            <li><img title="img1" alt="" src="../../imgs/Zatsudan_shinya.png" /></li>
+            <li><img title="img2" alt="" src="../../imgs/zatsudan_christmas.png" /></li>
+        </ul>
+    </div>
+    
+    <div class="main-contents">
+        <h1 class="caption">
+            大見出し
+        </h1>
+        <span class="maintext"></span>
+    </div>
+
+    <footer>
+        <span class="ftext">Copyright © 2016 Happa8 All Rights Reserved.</span>
+    </footer>
+</body>
+
+</html>
