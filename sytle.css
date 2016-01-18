@@ -4,15 +4,14 @@
 }
 
 html{
-    background-color: #fbd8b5;
+    background-color: ghostwhite;
 }
 
 header{
-    background-color: #fbd8b5;
+    background-color: ghostwhite;
+    font-family: 'Noto Sans Japanese', sans-serif;
     
     border: 0px solid;
-    border-bottom: 3px solid;
-    border-bottom-color: aqua;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -21,7 +20,14 @@ header{
     
     z-index: 30;
     
+    box-shadow: 0px 3px 4px rgba(0,0,0,0.4);
     
+    
+}
+
+.Welcome{
+    font-family: 'Noto Sans Japanese', sans-serif;
+    margin: 10px;
 }
 
 img.topimg{
@@ -85,3 +91,19 @@ img.topimg{
     margin-left: 1.6665%;
     margin-right: 1.6665%;
 }
+
+.topnews{
+    margin: 10px;
+    height:500px;
+    width: 60%;
+    background-image:url(cork.jpg);
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.4);
+}
+
+.topnews-title h1{
+    padding-left: 20px;
+    border-bottom: 3px solid;
+    border-bottom-style:dotted;
+}
+
+
