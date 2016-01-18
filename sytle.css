@@ -100,10 +100,34 @@ img.topimg{
     box-shadow: 3px 3px 4px rgba(0,0,0,0.4);
 }
 
-.topnews-title h1{
+.topnews-title{
     padding-left: 20px;
     border-bottom: 3px solid;
     border-bottom-style:dotted;
+    height: 40px;
+}
+
+.topnews-container{
+    height: 457px;
+}
+
+.topnews-date{
+    width: 30%;
+    float: left;
+    height: 100%;
+    border-right: 2px solid;
+}
+
+#topnews-main-date{
+    float: right;
+    margin: 10px;
+    padding-right: 1px;
+}
+
+#topnews-main-cap{
+    float: left;
+    margin: 10px;
+    color: black;
 }
 
 
