@@ -83,13 +83,10 @@ header h1{
     margin: 10px;
 }
 
-.topimg{
-    text-align: center;
-}
+
 
 .topimg img{
     width: 80%;
-    overflow: hidden;
     margin-top: 50px;
     
     
