@@ -27,6 +27,10 @@ header{
     
 }
 
+header a{
+    color: black;
+}
+
 
 header h1{
     float: left;
